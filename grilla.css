@@ -1,0 +1,32 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+button{
+    font-size: 25px;
+}
+
+section {
+    height: 100%;
+}
+
+.calculadora {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 25%;
+}
+
+.visor {
+    font-size: 25px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.cero {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
